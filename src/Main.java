@@ -56,7 +56,7 @@ public class Main {
         System.out.print("Location: "); String loc = sc.next();
         System.out.print("Type: "); String t = sc.next();
 
-        if (type == 1)
+        if (type == 10)
             tickets.add(new MaintenanceTicket(id, title, desc, loc, t));
         else
             tickets.add(new CleaningTicket(id, title, desc, loc, t));
@@ -81,6 +81,7 @@ public class Main {
             }
         }
     }
+
 }
 //code is working as we expected
 //is everything is working good
